@@ -1,0 +1,74 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+
+    /* Type Checking */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+
+    /* Modules */
+    "baseUrl": ".",
+    "paths": {
+      "@pages/*": ["pages/*"],
+      "@components/*": ["components/*"],
+      "@utils/*": ["utils/*"],
+      "@config/*": ["config/*"],
+      "@fixtures/*": ["fixtures/*"],
+      "@tests/*": ["tests/*"]
+    },
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    /* Emit */
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "removeComments": false,
+    "newLine": "lf",
+
+    /* Interop Constraints */
+    "isolatedModules": true,
+    "allowJs": false,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Skip Type Checking */
+    "skipLibCheck": true
+  },
+  "include": [
+    "tests/**/*",
+    "pages/**/*",
+    "components/**/*",
+    "utils/**/*",
+    "config/**/*",
+    "fixtures/**/*",
+    "playwright.config.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "test-results",
+    "reports",
+    "screenshots",
+    "allure-results",
+    "allure-report"
+  ]
+}
