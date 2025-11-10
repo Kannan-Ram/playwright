@@ -1,0 +1,13 @@
+node_modules
+dist
+test-results
+reports
+screenshots
+allure-results
+allure-report
+.auth
+temp
+archives
+coverage
+*.log
+package-lock.json

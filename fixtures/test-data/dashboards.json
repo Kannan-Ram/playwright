@@ -1,0 +1,41 @@
+{
+  "dashboards": [
+    {
+      "id": "dash-001",
+      "title": "Executive Dashboard",
+      "description": "High-level KPIs and metrics",
+      "widgets": [
+        {
+          "id": "widget-001",
+          "type": "kpi",
+          "title": "Revenue",
+          "value": "$2.5M",
+          "trend": "up"
+        },
+        {
+          "id": "widget-002",
+          "type": "chart",
+          "chartType": "line",
+          "title": "Monthly Sales Trend"
+        }
+      ]
+    },
+    {
+      "id": "dash-002",
+      "title": "Operations Dashboard",
+      "description": "Operational metrics and performance",
+      "widgets": [
+        {
+          "id": "widget-003",
+          "type": "table",
+          "title": "Active Projects"
+        },
+        {
+          "id": "widget-004",
+          "type": "gauge",
+          "title": "Capacity Utilization"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "user-001",
+      "username": "test.user@example.com",
+      "firstName": "Test",
+      "lastName": "User",
+      "role": "viewer",
+      "active": true
+    },
+    {
+      "id": "user-002",
+      "username": "admin@example.com",
+      "firstName": "Admin",
+      "lastName": "User",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": "user-003",
+      "username": "analyst@example.com",
+      "firstName": "Data",
+      "lastName": "Analyst",
+      "role": "analyst",
+      "active": true
+    }
+  ],
+  "testUser": {
+    "username": "test.automation@example.com",
+    "firstName": "Automation",
+    "lastName": "Tester",
+    "role": "analyst"
+  }
+}
